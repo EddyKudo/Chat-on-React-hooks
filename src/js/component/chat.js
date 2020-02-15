@@ -12,7 +12,7 @@ const Messages = props => {
 		m =>
 			m[0] !== "" ? (
 				<li>
-					<strong>{m[0]}</strong> :
+					<b>{m[0]}</b> :
 					<a
 						onClick={() => {
 							setClipboard(`${m[1]}`);
